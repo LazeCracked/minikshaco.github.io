@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benim İlk HTML Sayfam</title>
+    <style>
+        body {
+            /* Arka plan resmi */
+            background-image: url('arkaplan.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3em;
+        }
+
+        p {
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Merhaba Dünya!</h1>
+    <p>Bu benim ilk HTML sayfam.</p>
+
+    <!-- Sayfa açıldığında otomatik çalacak müzik -->
+    <audio autoplay loop>
+        <source src="sarki.mp3" type="audio/mpeg">
+        Tarayıcınız audio etiketini desteklemiyor.
+    </audio>
+</body>
+</html>
